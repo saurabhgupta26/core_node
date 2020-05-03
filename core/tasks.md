@@ -1,13 +1,19 @@
 1. Explain Node and V8 in your own words ? 
-// Answer here...
+// Node.js is an open-source and cross-platform JavaScript runtime environment. Node.js runs the V8 JavaScript engine, the core of Google Chrome, outside of the browser. This allows Node.js to be very performant.
+V8 provides the runtime environment in which JavaScript executes. To work effectively, V8 works on a single threaded function and the js works on the single threaded function as well. Hence, providing with the better working efficiency.
 
 2. Explain steps in REPL(here) and command to start REPL ?
-// Answer here...
+// Open the console.
+// > node
+// > console.log("hello world");
 
 3. Run `index.js` in the same directory as script writer using `node FILE_NAME.js` and output result of console here.
+// > node index.js
+// > hello World
 
 4. Require fs module and read `theory.md` using fs.readFile method in index.js file.
-
+// var fs = require('fs');
+// fs.readFile('./index);
 5. Explain Buffer and different methods to create a buffer ?
 
 6. What is blocking code ? How is it different from non-blocking/async codes ? Correct blocking code in index.js to run asynchronously ?

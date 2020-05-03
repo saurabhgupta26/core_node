@@ -3,6 +3,11 @@
 console.log('hello World');
 
 //4. Read file(theory.md) here using fs module and console the results of operation.
+const fs = require("fs");
+fs.readFile("theory.md", (err, data) => {
+	console.log(err, data);
+});
+
 
 //6. Blocking code
  // Run it first and observe the output
@@ -16,3 +21,5 @@ console.log('hello World');
 // 10. require math.js
   // console const pie and add and multiply function.
 
+  var math = require("./math.js");
+  console.log(math.pie);
